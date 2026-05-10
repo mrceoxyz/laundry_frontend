@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Customer, Feedback, GarmentType, Invoice, Order, Payment, Receipt, ServiceType, Staff } from '../types';
 
-const API_BASE_URL = 'https://els-backend-12.onrender.com/api';
+const API_BASE_URL = 'https://laundry-backend-7080.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
